@@ -1,5 +1,5 @@
 //
-//  AuthenticationsModels.swift
+//  Authentications.swift
 //  Aura
 //
 //  Created by Jaouad on 11/12/2025.
@@ -13,6 +13,7 @@ struct AuthenticationRequest: Codable {
     let password: String
 }
 
+// la réponse de backend lors de l'authentification
 struct AuthenticationResponse: Codable {
     let token: String
 }
